@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="18.108552">
+<testcase classname="Free OSA Login Feature" name="Free OSA Login Test Scenario" time="18.108552">
+<system-out><![CDATA[Given User is already on osa login page.....................................passed
+When Title of login page is osa login.......................................passed
+Then User enter username and passord........................................passed
+Then User clicks on login button............................................passed
+Then User is on Student page................................................passed
+Then close browser..........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

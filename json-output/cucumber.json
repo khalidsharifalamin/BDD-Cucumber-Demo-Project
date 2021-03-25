@@ -1,0 +1,142 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Free OSA Login Test Scenario",
+        "description": "",
+        "id": "free-osa-login-feature;free-osa-login-test-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11552631900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is already on osa login page",
+            "match": {
+              "location": "LoginStepdefination.User_is_already_on_osa_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11226300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Title of login page is osa login",
+            "match": {
+              "location": "LoginStepdefination.title_of_login_page_is_osa_login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 644055800,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 7,
+                "value": "#~~parameterized~~#"
+              },
+              {
+                "line": 8,
+                "value": "#Then User enter \"moutushislam@gmail.com\" and \"Asad1234\""
+              },
+              {
+                "line": 10,
+                "value": "#~~Testdata method~~#"
+              },
+              {
+                "line": 11,
+                "value": "#Then User enter username and passord"
+              },
+              {
+                "line": 12,
+                "value": "#| moutushislam@gmail.com | Asad1234 |"
+              },
+              {
+                "line": 14,
+                "value": "#~~map object~~#"
+              }
+            ],
+            "line": 15,
+            "name": "User enter username and passord",
+            "match": {
+              "location": "LoginStepdefination.user_enter_username_and_passord(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ],
+                "line": 16
+              },
+              {
+                "cells": [
+                  "moutushislam@gmail.com",
+                  "Asad1234"
+                ],
+                "line": 17
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 137626800,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 18,
+                "value": "#|         alamin         |   a123   |"
+              }
+            ],
+            "line": 20,
+            "name": "User clicks on login button",
+            "match": {
+              "location": "LoginStepdefination.user_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6815800,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User is on Student page",
+            "match": {
+              "location": "LoginStepdefination.user_is_on_Student_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5756195900,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "close browser",
+            "match": {
+              "location": "LoginStepdefination.close_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Free OSA Login Feature",
+    "description": "",
+    "id": "free-osa-login-feature",
+    "keyword": "Feature",
+    "uri": "C:/Users/alami/Desktop/learning/Cucumber/src/main/java/Features/login.feature"
+  }
+]
